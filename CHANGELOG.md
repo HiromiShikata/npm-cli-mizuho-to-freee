@@ -1,3 +1,10 @@
+# 1.0.0 (2025-11-16)
+
+
+### Features
+
+* use node 22 ([990d28c](https://github.com/HiromiShikata/npm-cli-mizuho-to-freee/commit/990d28c2bec484233d600ee02c02a52621ce1d14))
+
 ## [1.0.8](https://github.com/HiromiShikata/npm-cli-mizuho-to-freee/compare/v1.0.7...v1.0.8) (2025-01-28)
 
 
