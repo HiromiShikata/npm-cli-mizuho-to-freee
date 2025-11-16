@@ -6,21 +6,6 @@
 
 Welcome to npm-cli-mizuho-to-freee, this template os for npm command-line.
 
-## How to use this template
-
-1. Grant write permission to gh-actions
-
-   https://github.com/HiromiShikata/npm-cli-mizuho-to-freee/settings/actions
-
-1. Set secrets (optional)
-
-   https://github.com/HiromiShikata/npm-cli-mizuho-to-freee/settings/secrets/actions
-   - [GH_TOKEN](https://github.com/settings/tokens)
-   - [NPM_TOKEN](https://www.npmjs.com/settings/hiromi/tokens)
-   - [RELEASE_APP_PRIVATE_KEY](https://github.com/settings/apps/semantic-release-changelog)
-
-1. Remove `How to use this template` section from README.md
-
 ## Usage 🛠️
 
 Here's how you can use npm-cli-mizuho-to-freee:
