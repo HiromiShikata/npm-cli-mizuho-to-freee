@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/HiromiShikata/npm-cli-mizuho-to-freee/compare/v1.0.0...v1.0.1) (2025-11-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency dotenv to v17 ([560aedb](https://github.com/HiromiShikata/npm-cli-mizuho-to-freee/commit/560aedb4d2cea8bcc10ea6c69eae47f6bc1088e0))
+
 # 1.0.0 (2025-11-16)
 
 
