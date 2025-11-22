@@ -4,11 +4,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const commander_1 = require("commander");
 const program = new commander_1.Command();
 program
-    .argument('<path>', 'Path of example')
-    .name('Example CLI')
-    .description('This is an example')
-    .action(async (path) => {
-    console.log(JSON.stringify(path));
+    .argument('<targetDirectoryPath>', 'Path to the target directory where replacements are to be made')
+    .argument('<beforeWord>', 'Word to be replaced throughout the target directory')
+    .argument('<afterWord>', 'Word to replace the beforeWord with')
+    .name('Replace all words')
+    .description('CLI tool to convert Mizuho Bank data to freee format')
+    .action(async (targetDirectoryPath, beforeWord, afterWord) => {
+    console.log(JSON.stringify({ targetDirectoryPath, beforeWord, afterWord }));
 });
 if (process.argv) {
     program.parse(process.argv);
